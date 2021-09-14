@@ -2,11 +2,6 @@ body {
     background-color: #fff;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
-
 h1 {
     font: bold 4em 'Righteous', cursive;
     color: #000;
@@ -15,10 +10,13 @@ h1 {
 }
 
 img {
-    margin-top: 15%;
+    /* margin-right: auto;
+    margin-left: auto; */
+    position: fixed;
+    top: 20%;
+    left: 20%;
 }
 
 img:hover {
-    color: #000;
     transform: scale(1.2);
 }
